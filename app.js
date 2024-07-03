@@ -35,7 +35,7 @@ app.use(express.json());
 
 // Configure CORS options
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://frontend-ai-blue.vercel.app/",
   // methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   // allowedHeaders: ["Content-Type", "Authorization"],
   credentials: true, // Allow cookies
